@@ -2,18 +2,20 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-size: 110%;
 }
 
 html{
-    font-size: 62.5%;
+    font-size: 90%;
 }
 
 .container{
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background-color: #C4C4C4;
     font-family: 'Share Tech', sans-serif;
 }
+
 
 .logo{
     font-weight: 600;
@@ -55,10 +57,10 @@ header p{
     font-size: 1.8rem;
 }
 
-.container .temas {
+.container .tema {
     position: absolute;
-    height: 500px;
-    width: 650px;
+    height: 50%;
+    width: 60%;
     right: 7%;
     bottom: 0;
     z-index:999;
@@ -82,25 +84,55 @@ header p{
 }
 
 
-
-.container .sql{
-    position: absolute;
-    height: 400px;
-    width: 500px;
-    right: 7%;
-    bottom: 0;
-    z-index:999;
+.container1 {
+    display: flex;
 }
 
-.container .sql1{
-    position: absolute;
+.card1 {
+    border-radius: 20px;
+    margin-left: 10px;
+    height: 510px;
+    background-color: white;
+    flex: 1%;
+    transition: transform 0.1s ease-in-out;
+    width: 500px;
+}
+
+.card1:hover {
+    flex: 5%;
+    background-color: white;
+    transform: scale(1.2);
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.container2 {
+    display: flex;
+}
+
+.img2 {
+    border-radius: 20px;
+    margin-left: 10px;
     height: 200px;
-    width: 300px;
-    right: 50%;
-    top: 60%;
-    bottom: 0;
-    z-index:999;
-    
+    background-color: white;
+    margin-left: 36%;
+}
+.card2 {
+    border-radius: 20px;
+    margin-left: 10px;
+    height: 50px;
+    width: 20px;
+    background-color: #C4C4C4;
+    flex: 1%;
+    transition: transform 0.1s ease-in-out;
+}
+
+.card2:hover {
+    flex: 5%;
+    background-color: #C4C4C4;
+    transform: scale(1.2);
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 header h1{
@@ -118,4 +150,12 @@ header p ul{
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 1.8rem;
+}
+
+.img {
+    border-radius: 20px;
+    margin-left: 10px;
+    height: 200px;
+    background-color: white;
+    margin-left: 36%;
 }
