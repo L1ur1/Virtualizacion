@@ -3,21 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/style.css">
     <title>Virtualización</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <div class="container">
         <nav>
             <p class="logo">VIRTUALIZACIÓN</p>
             <ul>
-                <li><a href="../contenido/definicion.html">Definición</a><img src="../icons/book-solid.svg" width="25" height="25" alt=""></li>
-                <li><a href="../contenido/funciones.html">Funciones</a><img src="../icons/gears-solid.svg" width="25" height="25" alt=""></li>
-                <li><a href="../contenido/ejemplos.html">Ejemplos</a><img src="../icons/" width="25" height="25" alt=""></li>
-                <li><a href="../contenido/ventajas.html">Ventajas</a><img src="../icons/check-solid.svg" width="25" height="25" alt=""></li>
-                <li><a href="../contenido/desventajas.html">Desventajas</a><img src="../icons/xmark-solid.svg" width="25" height="25" alt=""></li>
-                <li><a href="../contenido/gráficos.html">Gráficos</a><img src="../icons/image-solid.svg" width="25" height="25" alt=""></li>
-                <li><a href="../contenido/importancia.html">Importancia</a><img src="../img/estrella.png" width="25" height="25" alt=""></li>
+                <li><a href="../contenido/definicion.html">Definición</a><img class="img" src="../iconos/book-solid.svg" alt=""></li>
+                <li><a href="../contenido/funciones.html">Funciones</a><img class="img" src="../iconos/gears-solid.svg" alt=""></li>
+                <li><a href="../contenido/ejemplos.html">Ejemplos</a><img class="img" src="../iconos/bombilla.png" alt=""></li>
+                <li><a href="../contenido/ventajas.html">Ventajas</a><img class="img" src="../iconos/check-solid.svg" alt=""></li>
+                <li><a href="../contenido/desventajas.html">Desventajas</a><img class="img" src="../iconos/xmark-solid.svg" alt=""></li>
+                <li><a href="../contenido/gráficos.html">Gráficos</a><img class="img" src="../iconos/image-solid.svg" alt=""></li>
+                <li><a href="../contenido/importancia.html">Importancia</a><img class="img" src="../iconos/estrella.png" alt=""></li>
             </ul>
         </nav>
         <div class="text">
@@ -25,50 +28,49 @@
             <br><br><br>
         <p class="p">
             La virtualización es una tecnología que permite crear servicios de TI útiles, con recursos que están tradicionalmente limitados al hardware. Gracias a que distribuye las funciones de una máquina física entre varios usuarios o entornos, posibilita el uso de toda la capacidad de la máquina.<br>
-            <br><br>
+            <br>
             En términos prácticos, imagínese que tiene tres servidores físicos, cada uno con propósitos específicos. Uno es un servidor de correo, otro es un servidor web y el tercero ejecuta aplicaciones heredadas internas. Se utiliza alrededor del 30 % de la capacidad de cada servidor, es decir, solo una parte de su potencial. 
             <br><br>
-            <div class="container2">
             <img class="img2" src="../img/imagen3.png" alt=""></li>
             </div>
             <br><br>
             Normalmente, la respuesta sería que sí. Por lo general, era más fácil y confiable ejecutar tareas individuales en cada servidor (es decir, un servidor, un sistema operativo y una tarea), ya que no era sencillo asignarle varias. Sin embargo, la virtualización permite dividir el servidor de correo en otros dos únicos que pueden ocuparse de tareas independientes, para poder trasladar las aplicaciones heredadas. Se utiliza el mismo hardware, pero de manera más eficiente.
             <br><br>
-            <img class="img" src="../img/imagen4.png" alt=""></li>
+            <img class="img2" src="../img/imagen4.png" alt=""></li>
             <br><br> 
             Si pensamos en la seguridad, es posible volver a dividir el primer servidor para que gestione otra tarea y aumentar su uso de un 30 % a un 60 %, y luego a un 90 %. Una vez que lo logra, los servidores que quedan vacíos se pueden reutilizar para otras tareas o retirarse todos juntos para reducir los costos de refrigeración y mantenimiento.
         </p>
             <h1>TIPOS DE VIRTUALIZACIÓN</h1>
+            <br><br>
             <h2>Virtualización de los datos:</h2>
             <br><br>
-            <img src="../img/imagen5.png" width="200" height="70" alt=""></li>
+            <img class="img2" src="../img/imagen5.png" alt=""></li>
         <p class="p">
             Los datos que se encuentran distribuidos en varias ubicaciones pueden consolidarse en una sola fuente. La virtualización de los datos posibilita que las empresas los traten como si fueran un suministro dinámico, ya que proporciona funciones de procesamiento que permiten reunir datos de varias fuentes, incorporar fuentes nuevas fácilmente y transformar los datos según las necesidades de los usuarios. Las herramientas que forman parte de este proceso interactúan con varias fuentes de datos y permiten tratarlas como si fueran solo una. Gracias a ello, cualquier aplicación o usuario puede obtener los datos que necesita, de la manera que los requiere en el momento justo.
         </p>
         <br><br>
             <h2>Virtualización de escritorios</h2>
             <br><br>
-            <img src="../img/imagen6.png" width="200" height="70" alt=""></li>
+            <img class="img2" src="../img/imagen6.png" alt=""></li>
         <p class="p">
             Los servidores son computadoras diseñadas para procesar un gran volumen de tareas específicas de forma muy efectiva para que otras computadoras (portátiles o de escritorio) puedan ejecutar otros procesos. La virtualización de un servidor, que implica dividirlo para que sus elementos puedan utilizarse para realizar varias tareas, permite ejecutar más funciones específicas.
         </p>
         <br><br>
             <h2>Virtualización de los sistemas operativos</h2>
             <br><br>
-            <img src="../img/imagen7.png" width="200" height="70" alt=""></li>
+            <img class="img2" src="../img/imagen7.png" alt=""></li>
         <p class="p">
             Los sistemas operativos se virtualizan en el kernel, es decir, en sus administradores centrales de tareas. Es una forma útil de ejecutar los entornos de Linux y Windows de manera paralela. Las empresas también pueden insertar sistemas operativos virtuales en las computadoras, lo cual:
             <br><br>
-            <ul class="tipos">
-                <li>Reduce los grandes gastos en sistemas de hardware, ya que las computadoras no requieren funciones tan inmediatas.</li>
-                <li>Aumenta la seguridad porque todas las instancias virtuales se pueden supervisar y aislar.</li>
-                <li>Limita el tiempo que se destina a los servicios de TI, como las actualizaciones de software.</li>
+            Reduce los grandes gastos en sistemas de hardware, ya que las computadoras no requieren funciones tan inmediatas.<br>
+            Aumenta la seguridad porque todas las instancias virtuales se pueden supervisar y aislar. <br>
+            Limita el tiempo que se destina a los servicios de TI, como las actualizaciones de software.<br>
             </ul>
         </p>
             <br><br>
             <h2>Virtualización de las funciones de red</h2>
             <br><br>
-            <img src="../img/imagen9.png" width="200" height="70" alt=""></li>
+            <img class="img2" src="../img/imagen9.png" alt="">
         <p class="p">
             La virtualización de las funciones de red (NFV) separa las funciones clave de una red (como los servicios de directorio, el uso compartido de archivos y la configuración de IP) para distribuirlas entre los entornos. Cuando las funciones del software se independizan de las máquinas físicas donde se alojaban, las funciones específicas pueden empaquetarse en una nueva red y asignarse a un entorno. La virtualización de redes, que se utiliza con frecuencia en el sector de las telecomunicaciones, reduce la cantidad de elementos físicos (como conmutadores, enrutadores, servidores, cables y centrales) que se necesitan para crear varias redes independientes.
         </p>

@@ -3,21 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/style.css">
     <title>Virtualización</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <div class="container">
         <nav>
             <p class="logo">VIRTUALIZACIÓN</p>
             <ul>
-                <li><a href="../contenido/definicion.html">Definición</a><img src="icons/book-solid.svg" width="25" height="25" alt=""></li>
-                <li><a href="../contenido/funciones.html">Funciones</a><img src="icons/gears-solid.svg" width="25" height="25" alt=""></li>
-                <li><a href="../contenido/ejemplos.html">Ejemplos</a><img src="icons/bxl-css3.svg" width="25" height="25" alt=""></li>
-                <li><a href="../contenido/ventajas.html">Ventajas</a><img src="icons/check-solid.svg" width="25" height="25" alt=""></li>
-                <li><a href="../contenido/desventajas.html">Desventajas</a><img src="icons/xmark-solid.svg" width="25" height="25" alt=""></li>
-                <li><a href="../contenido/gráficos.html">Gráficos</a><img src="icons/image-solid.svg" width="25" height="25" alt=""></li>
-                <li><a href="../contenido/importancia.html">Importancia</a><img src="img/estrella.png" width="25" height="25" alt=""></li>
+                <li><a href="../contenido/definicion.html">Definición</a><img class="img" src="../iconos/book-solid.svg" alt=""></li>
+                <li><a href="../contenido/funciones.html">Funciones</a><img class="img" src="../iconos/gears-solid.svg" alt=""></li>
+                <li><a href="../contenido/ejemplos.html">Ejemplos</a><img class="img" src="../iconos/bombilla.png" alt=""></li>
+                <li><a href="../contenido/ventajas.html">Ventajas</a><img class="img" src="../iconos/check-solid.svg" alt=""></li>
+                <li><a href="../contenido/desventajas.html">Desventajas</a><img class="img" src="../iconos/xmark-solid.svg" alt=""></li>
+                <li><a href="../contenido/gráficos.html">Gráficos</a><img class="img" src="../iconos/image-solid.svg" alt=""></li>
+                <li><a href="../contenido/importancia.html">Importancia</a><img class="img" src="../iconos/estrella.png" alt=""></li>
             </ul>
         </nav>
         <div class="text">
@@ -28,10 +31,12 @@
         <p class="p">
             El software denominado hipervisor separa los recursos físicos de los entornos virtuales que los necesitan. Los hipervisores pueden controlar un sistema operativo (como una computadora portátil) o instalarse directamente en el hardware (como un servidor), que es la forma en que la mayoría de las empresas implementan la virtualización. Los hipervisores toman los recursos físicos y los dividen de manera tal que los entornos virtuales puedan usarlos.
             <br><br>
-            <img src="../img/imagen2.png" width="150" height="70" alt="">
+            <img class="img2" src="../img/imagen10.png" alt="">
             <br><br>
-            <h2>Entornos virtuales y máquinas virtuales</h2>
+            <img class="" src="" alt="">
             <br>
+            <h2>Entornos virtuales y máquinas virtuales</h2>
+            <br><br>
             Los recursos se dividen según las necesidades, desde el entorno físico hasta los numerosos entornos virtuales. Los usuarios interactúan con la informática y la ponen en funcionamiento dentro del entorno virtual (generalmente denominado máquina guest o máquina virtual). La máquina virtual funciona como un archivo de datos único; por eso, tal como ocurre con cualquier archivo digital, es posible trasladarla de una computadora a otra, abrirla en cualquiera de ellas, y tener la tranquilidad de que funcionará de la misma forma.
             <br><br>
             Cuando el entorno virtual se está ejecutando, y un usuario o programa emite una instrucción que requiere recursos adicionales del entorno físico, el hipervisor transmite la solicitud al sistema físico y almacena los cambios en la caché. Todo esto sucede prácticamente a la misma velocidad que habría si este proceso se realizara dentro de la máquina física (en especial, si la solicitud se envía a través de un hipervisor open source diseñado a partir de la máquina virtual basada en el kernel [KVM]).
